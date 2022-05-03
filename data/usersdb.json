@@ -1,0 +1,64 @@
+[
+    {
+        "id": "59d84987-a697-4f8f-a63d-01fbcedfb65f",
+        "name": "user1",
+        "lastname": "user1",
+        "bithday": "09.05.2022",
+        "email": "w.abaimov@gmail.com",
+        "password": "$2b$10$1FCNVmvq1vMtpirjwlWmvuWd3ME.c/p13xwsnj.vD46OGc2iyVtSO",
+        "role": "USER",
+        "activationLink": "5c9c6f08-084c-40ac-9d33-5f01a26d55e7",
+        "confirmed": true
+    },
+    {
+        "id": "e56eec13-7afa-4579-93ae-fb337a7ff4b0",
+        "name": "user1",
+        "lastname": "user1",
+        "bithday": "17.05.2022",
+        "email": "bb@gmail.com",
+        "password": "$2b$10$dQvrAzIHFYj.GpDn3YHLr.nqHPrF453d6p8YFujUsD3lOgT7/3kjS",
+        "role": "USER",
+        "activationLink": "6c8ab77e-bf8b-4d2f-9b67-5a269e0d3752",
+        "confirmed": true
+    },
+    {
+        "id": "79af59e1-2438-4266-bd8d-5a90f8026a6a",
+        "name": "user111",
+        "lastname": "user111",
+        "bithday": "11.05.2022",
+        "email": "hello@gmail.com",
+        "password": "$2b$10$4dkat8RvFdoH5Bz7kaDGCOQZ1endalqjSUaf3zxQ.pkSDZpZTxPnK",
+        "role": "USER",
+        "activationLink": "ca882096-a072-4ad0-b233-b516b1c556d0"
+    },
+    {
+        "id": "dd60f470-6540-4083-92bb-6bed3403109d",
+        "name": "d",
+        "lastname": "d",
+        "bithday": "10.05.2022",
+        "email": "d@gmail.com",
+        "password": "$2b$10$X6eIU9QlhfxG9c9uopNZdO/jM15lmXMFh/DVMXTf69FzgAAc8uLqm",
+        "role": "USER",
+        "activationLink": "b895a147-00cf-4f66-876a-3f20e99b71bf"
+    },
+    {
+        "id": "1fa90f6d-872a-4e7f-ab92-f315a5bd7028",
+        "name": "kirka",
+        "lastname": "lolka",
+        "bithday": "04.05.2022",
+        "email": "down@k.ru",
+        "password": "$2b$10$8TSmehDDP.k/oVv0ChOpV.CyxFgWpNJj7mfQU5YkA2yMGP0v7oo3G",
+        "role": "USER",
+        "activationLink": "3fa2619e-8c79-4230-98e0-c1bdaa34b54d"
+    },
+    {
+        "id": "cb2c217e-320c-4b5d-b585-005d3bdbcf98",
+        "name": "d102",
+        "lastname": "s102",
+        "bithday": "17.05.2022",
+        "email": "kirkorov@gmail.com",
+        "password": "$2b$10$y1CSXyCwJtC4mG714bcQ.Of2WDRmC11ONqXWYJZc3UFxd70fMNGb2",
+        "role": "USER",
+        "activationLink": "a80d869e-6336-44db-8f87-205e065f3eee"
+    }
+]
