@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import { Form, Input, Button, message, notification } from "antd";
+import { url } from "../../constant";
 import "./login.css";
 
 const LoginUser = () => {
@@ -23,9 +24,9 @@ const LoginUser = () => {
   const loginHandler = async (values) => {
     try {
       await axios
-        .post(`http://127.0.0.1:3001/auth/login`, values, {
+        .post(`${url}/auth/login`, values, {
           headers: {
-            "Access-Control-Allow-Origin": "http://127.0.0.1:3001",
+            "Access-Control-Allow-Origin": url,
             "Content-Type": "application/json",
           },
         })

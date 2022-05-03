@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "REACT_APP_API_URL=http://128.199.43.189:80 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

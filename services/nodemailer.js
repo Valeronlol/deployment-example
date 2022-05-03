@@ -7,6 +7,7 @@ const transporter = nodemailer.createTransport({
     pass: "testsuperpower123",
   },
 });
+const port = process.env.PORT || 3001
 
 exports.emailVerefication = (user) => {
   let message = {
@@ -15,7 +16,7 @@ exports.emailVerefication = (user) => {
     subject: "Nodemailer is unicode friendly ✔",
     text: `Привет!
     перейдите по ссылке чтобы продолжить`,
-    html: `<b><a>http://localhost:3001/auth/userAct/?id=${user.activationLink}</a><b>`,
+    html: `<b><a>http://127.0.0.1:${port}/auth/userAct/?id=${user.activationLink}</a><b>`,
   };
   transporter.sendMail(message, (err, info) => {
     if (err) {

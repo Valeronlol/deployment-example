@@ -1,6 +1,5 @@
 import axios from "axios";
-
-const url = "http://127.0.0.1:3001";
+import { url } from "../constant";
 
 export const getImagesAxios = async () => {
   return await axios.get(`${url}/pets/images`);
@@ -11,7 +10,7 @@ export const login = async (payload) => {
     await axios
       .post(`${url}/auth/login`, payload, {
         headers: {
-          "Access-Control-Allow-Origin": "http://127.0.0.1:3001",
+          "Access-Control-Allow-Origin": url,
           "Content-Type": "application/json",
         },
       })
@@ -26,7 +25,7 @@ export const registration = async (payload) => {
     await axios
       .post(`${url}/auth/registration`, payload, {
         headers: {
-          "Access-Control-Allow-Origin": "http://127.0.0.1:3001",
+          "Access-Control-Allow-Origin": url,
           "Content-Type": "application/json",
         },
       })
